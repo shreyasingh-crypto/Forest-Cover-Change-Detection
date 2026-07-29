@@ -18,6 +18,14 @@ This project analyzes forest cover changes between 2000 and 2023 using satellite
 - NDVI Analysis
 - GIS Mapping
 
+## Technologies
+
+- Remote Sensing
+- GIS
+- NDVI Differencing
+- Landsat 5 TM
+- Landsat 8 OLI
+
 ## Methodology
 
 1. Satellite image acquisition
@@ -29,17 +37,31 @@ This project analyzes forest cover changes between 2000 and 2023 using satellite
 
 ## Results
 
-- Generated NDVI maps for different years
-- Identified vegetation gain and vegetation loss
-- Produced thematic maps for forest change analysis
+### NDVI Map (2000)
+
+![NDVI 2000](images/NDVI_2000.png)
+
+### NDVI Map (2023)
+
+![NDVI 2023](images/NDVI_2023.png)
+
+### NDVI Difference
+
+![NDVI Difference](images/NDVI_Difference.png)
+
+### Forest Cover Change Map
+
+![Forest Cover Change](images/Forest_Change_Map.png)
 
 ## Project Structure
 
 ```text
-Images/
-Maps/
-Report/
-```
+Forest-Cover-Change-Detection/
+│
+├── README.md
+├── LICENSE
+├── images/
+└── Forest_Cover_Change_Report.pdf
 
 ## Data Source
 
@@ -48,6 +70,10 @@ Report/
 
 ## Future Scope
 
-- Automate the workflow using Python
-- Apply machine learning techniques for land cover classification
-- Extend the analysis using higher-resolution satellite imagery
+- Automate the analysis workflow using Python and GDAL.
+- Apply machine learning techniques for improved land-cover classification.
+- Extend the analysis using Sentinel-2 and higher-resolution satellite imagery.
+
+## License
+
+This project is licensed under the MIT License.
