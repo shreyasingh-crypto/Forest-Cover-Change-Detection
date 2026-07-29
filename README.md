@@ -37,6 +37,10 @@ This project analyzes forest cover changes between 2000 and 2023 using satellite
 
 ## Results
 
+## Results
+
+The project successfully generated NDVI maps for 2000 and 2023, performed NDVI differencing to identify vegetation changes, and produced a final forest cover change map highlighting vegetation gain, vegetation loss, and unchanged forest cover.
+
 ### NDVI Map (2000)
 
 ![NDVI 2000](images/NDVI_2000.png)
@@ -61,6 +65,11 @@ Forest-Cover-Change-Detection/
 ├── README.md
 ├── LICENSE
 ├── images/
+│   ├── NDVI_2000.png
+│   ├── NDVI_2023.png
+│   ├── NDVI_Difference.png
+│   └── Forest_Change_Map.png
+│
 └── Forest_Cover_Change_Report.pdf
 
 ## Data Source
